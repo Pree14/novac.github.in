@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NOVAC</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" hef="style1.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!-- <div class="container" style="background-color: red;">
+        <div class="row">
+            <div class="col 6"></div>
+        </div>
+    </div> -->
+        <div class="container-md">
+            <div class="form__container">
+            <!-- <div class="row "></div> -->
+            <!-- <div class="title__container">
+                <h1>Example UI container</h1>
+                <p>Follow the 4 simple steps to complete your mapping</p>
+            </div> -->
+            <div class="body__container">
+                <div class="left__container">
+                    <div class="side__titles">
+                        <div class="title__name">
+                            <h3>Your Details</h3>
+                            <p>Enter & press next</p>
+                        </div>
+                        <div class="title__name">
+                            <h3>Desctibes</h3>
+                            <p>select & press next</p>
+                        </div>
+                        <div class="title__name">
+                            <h3>Services</h3>
+                            <p>select & press next</p>
+                        </div>
+                        <div class="title__name">
+                            <h3>Budget</h3>
+                            <p>Select & press next</p>
+                        </div>
+                        <div class="title__name">
+                            <h3>Complete</h3>
+                            <p>Finaly press submit</p>
+                        </div>
+                    </div>
+                    <div class="progress__bar__container">
+                        <ul>
+                            <li class="active" id="icon1"><ion-icon name="person-outline"></ion-icon></li>
+                            <li id="icon2"><ion-icon name="book-outline"></ion-icon></li>
+                            <li id="icon3"><ion-icon name="layers-outline"></ion-icon></li>
+                            <li id="icon4"><ion-icon name="pricetag-outline"></ion-icon></li>
+                            <li id="icon5"><ion-icon name="mail-outline"></ion-icon></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right__container">
+                    <!-- <div id="total"> -->
+                    <fieldset id="form1">
+                        <div class="container-md">
+                            <div class="row1">
+                                <div class="col-3">
+                                    <div class="input__container" id="firstname">
+                                        <label for="fname" class="starlabel">Firstname</label>
+                                        <input type="text" id="fname" name="firstname">
+                                    </div>
+                                    <div class="input__container" id="middlename">
+                                        <label for="mname" class="starlabel">Middlename</label>
+                                        <input type="text" id="fname" name="firstname">
+                                    </div>
+                                    <div class="input__container" id="lastname">
+                                        <label for="lname" class="starlabel">Lastname</label>
+                                        <input type="text" id="fname" name="firstname">
+                                    </div>
+                                    <div class="input__container" id="dob">
+                                        <label for="dob" class="starlabel">DOB</label>
+                                        <input type="date" id="dob" name="dob">
+                                    </div>
+                                    <div class="input__container" id="gender">
+                                        <label for="gender" class="starlabel">Gender</label>
+                                        <!-- <input type="text"> -->
+                                        <select name="gender" id="gender">
+                                            <option value="">Please select one…</option>
+                                            <option value="female">Female</option>
+                                            <option value="male">Male</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="input__container" id="moblieno">
+                                        <label for="mobile" class="starlabel">Mobile no</label>
+                                        <input type="number" id="mobile" name="mobile">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row1">
+                                <div class="col-3">
+                                    
+                                </div>
+                            </div>
+                            
+                            <!-- </div> -->
+                        </div>
+                        
+                    </fieldset>
+                    <fieldset id="form1">
+                        <div class="container-md">
+                            <div class="row1">
+                                <div class="col-3">
+                                    <div class="input__container" id="address">
+                                        <label for="address" class="starlabel">Address</label>
+                                        <input type="text" id="address" name="address">
+                                    </div>
+                                    <div class="input__container" id="state">
+                                        <label for="state" class="starlabel">State</label>
+                                        <input type="text" id="state" name="state">
+                                    </div>
+                                    <div class="input__container" id="pincode">
+                                        <label for="pincode" class="starlabel">Pincode</label>
+                                        <input type="text" id="pincode" name="pincode">
+                                    </div>
+                                    <div class="input__container" id="nationality">
+                                        <label for="nationality" class="starlabel">Nationality</label>
+                                        <input type="text" id="nationality" name="nationality">
+                                    </div>
+                                    <div class="input__container" id="panno">
+                                        <label for="mname" class="starlabel">Pan no</label>
+                                        <input type="text" id="fname" name="firstname">
+                                    </div>
+                                    <div class="buttons">
+                                        <!-- <a class="prev__btn" onclick="prevForm();" >Back</a> -->
+                                        <a class="nxt__btn"  onclick="nextForm();" >Next</a>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row1">
+                                <div class="col-3">
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>                        
+                        <!-- </div> -->
+                    </div>
+                    </fieldset>
+                    <!-- </div> -->
+                <!-- <div class="right__container2"> -->
+                    <fieldset class="active__form" id="form2">
+                        <div class="sub__title__container">
+                            <p>Step 2/5</p>
+                            <h2>What best describes you ?</h2>
+                            <p>Please let us know what type of business best describes you as entreprenuer or businessman.</p>
+                        </div>
+                        
+                        <div class="input__container">
+                            <div class="selection newB">
+                                <div class="imoji">
+                                    <ion-icon name="happy"></ion-icon>
+                                    
+                                </div>
+                                <div class="descriptionTitle">
+                                    <h3>New Business</h3>
+                                    <p>Started trading in last 12 months</p>
+                                </div>
+                            </div>
+                            <div class="selection exitB">
+                                <div class="imoji">
+                                    <ion-icon name="business"></ion-icon>
+                                </div>
+                                <div class="descriptionTitle">
+                                    <h3>Existing Business</h3>
+                                    <p>Have been operating beyond 12 months</p>
+                                </div>
+                            </div>
+                            
+                            <div class="buttons">
+                                <a class="prev__btn" onclick="prevForm();" >Back</a>
+                                <a class="nxt__btn"  onclick="nextForm();" >Next</a>    
+                            </div>
+                        </div>
+                    </fieldset>
+                <!-- </div> -->
+                    <fieldset class="active__form" id="form3">
+                        <div class="sub__title__container">
+                            <p>Step 3/5</p>
+                            <h2>What service are looking for ?</h2>
+                            <p>Please let us know what type of business best describes you as entreprenuer or businessman.</p>
+                        </div>
+                        
+                        <div class="input__container">
+                            <div class="selection newB">
+                                <div class="imoji">
+                                    <ion-icon name="desktop"></ion-icon>
+                                    
+                                </div>
+                                <div class="descriptionTitle">
+                                    <h3>Website Development</h3>
+                                    <p>Development of online websites</p>
+                                </div>
+                            </div>
+                            <div class="selection exitB">
+                                <div class="imoji">
+                                    <ion-icon name="phone-portrait"></ion-icon>
+                                </div>
+                                <div class="descriptionTitle">
+                                    <h3>Development of Mobile App</h3>
+                                    <p>Development of android and IOS mobile app</p>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <a class="prev__btn" onclick="prevForm();" >Back</a>
+                                <a class="nxt__btn"  onclick="nextForm();" >Next</a>    
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="active__form" id="form4">
+                        <div class="sub__title__container">
+                            <p>Step 4/5</p>
+                            <h2>Please select your budget</h2>
+                            <p>Please let us know budget for your project so yes are great that we can give the right quote thanks</p>
+                        </div>
+                        
+                        <div class="input__container">
+                            
+                            
+                            <input type="range" min="10000" max="500000" value="250000" class="slider">
+                            <div class="output__value">
+                                
+                            </div>
+                            
+                            <div class="buttons">
+                                <a class="prev__btn" onclick="prevForm();" >Back</a>
+                                <a class="nxt__btn"  onclick="nextForm();" >Next</a>     
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="active__form" id="form5">
+                        <div class="sub__title__container">
+                            <p>Step 5/5</p>
+                            <h2>Complete Submission</h2>
+                            <p>Thanks for completing the form and for your time.Plss enter your email below and submit the form</p>
+                        </div>
+                        
+                        <div class="input__container">
+                            <label for="Email">Enter your email</label>
+                            <input type="text">
+                            <div class="buttons">
+                                <a class="prev__btn"  onclick="prevForm();" >Back</a>
+                                <a class="nxt__btn" id="submitBtn" onclick="nextForm();" >Next</a>    
+                            </div>
+                            
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
